@@ -1,0 +1,23 @@
+{
+  "name": "http-headers-info",
+  "version": "1.0.2",
+  "description": "Returns a JS arrays of http req and response by spec",
+  "browser": "index.min.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "minify": "google-closure-compiler --env=BROWSER --compilation_level='SIMPLE' --js=index.js --js_output_file=index.min.js"
+  },
+  "files": [
+    "index.min.js"
+  ],
+  "keywords": [
+    "http",
+    "headers",
+    "json"
+  ],
+  "author": "Even Stensberg <evenstensberg@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "google-closure-compiler": "^20190709.0.0"
+  }
+}
